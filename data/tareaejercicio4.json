@@ -1,0 +1,29 @@
+{
+  "name": "TareaEjercicio4",
+  "problem_type": "min",
+  "objective_function": {
+    "expression": "x**2 + 4*x + 5",
+    "variables": [
+      "x"
+    ]
+  },
+  "constraints": [
+    {
+      "expression": "x - 2",
+      "variables": [
+        "x"
+      ],
+      "constraint_type": ">="
+    },
+    {
+      "expression": "5 - x",
+      "variables": [
+        "x"
+      ],
+      "constraint_type": ">="
+    }
+  ],
+  "variables": [
+    "x"
+  ]
+}

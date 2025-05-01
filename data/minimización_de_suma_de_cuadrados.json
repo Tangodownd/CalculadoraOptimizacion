@@ -1,0 +1,16 @@
+{
+  "name": "Minimizaci\u00f3n de suma de cuadrados",
+  "problem_type": "min",
+  "objective_function": {
+    "expression": "x**2 + y**2",
+    "variables": [
+      "x",
+      "y"
+    ]
+  },
+  "constraints": [],
+  "variables": [
+    "x",
+    "y"
+  ]
+}

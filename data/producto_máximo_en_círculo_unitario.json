@@ -1,0 +1,25 @@
+{
+  "name": "Producto m\u00e1ximo en c\u00edrculo unitario",
+  "problem_type": "max",
+  "objective_function": {
+    "expression": "x*y",
+    "variables": [
+      "x",
+      "y"
+    ]
+  },
+  "constraints": [
+    {
+      "expression": "x**2 + y**2 - 1",
+      "variables": [
+        "x",
+        "y"
+      ],
+      "constraint_type": "="
+    }
+  ],
+  "variables": [
+    "x",
+    "y"
+  ]
+}

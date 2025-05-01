@@ -1,0 +1,28 @@
+{
+  "name": "TareaEjercicio2",
+  "problem_type": "min",
+  "objective_function": {
+    "expression": "5*x^2 + 3*y^2 + z^2 ",
+    "variables": [
+      "x",
+      "y",
+      "z"
+    ]
+  },
+  "constraints": [
+    {
+      "expression": "x + y + z - 100",
+      "variables": [
+        "x",
+        "y",
+        "z"
+      ],
+      "constraint_type": "="
+    }
+  ],
+  "variables": [
+    "x",
+    "y",
+    "z"
+  ]
+}

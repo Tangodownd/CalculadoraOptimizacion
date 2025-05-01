@@ -1,0 +1,25 @@
+{
+  "name": "Distancia m\u00ednima con restricci\u00f3n de igualdad",
+  "problem_type": "min",
+  "objective_function": {
+    "expression": "(x-2)**2 + (y-3)**2",
+    "variables": [
+      "x",
+      "y"
+    ]
+  },
+  "constraints": [
+    {
+      "expression": "x + y - 1",
+      "variables": [
+        "x",
+        "y"
+      ],
+      "constraint_type": "="
+    }
+  ],
+  "variables": [
+    "x",
+    "y"
+  ]
+}

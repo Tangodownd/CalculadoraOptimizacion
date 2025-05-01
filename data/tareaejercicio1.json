@@ -1,0 +1,33 @@
+{
+  "name": "TareaEjercicio1",
+  "problem_type": "max",
+  "objective_function": {
+    "expression": "0.1*x + 0.08*y",
+    "variables": [
+      "x",
+      "y"
+    ]
+  },
+  "constraints": [
+    {
+      "expression": "x + y - 1",
+      "variables": [
+        "x",
+        "y"
+      ],
+      "constraint_type": "="
+    },
+    {
+      "expression": "0.02*x**2 + 0.03*y**2 - 0.05",
+      "variables": [
+        "x",
+        "y"
+      ],
+      "constraint_type": "<="
+    }
+  ],
+  "variables": [
+    "x",
+    "y"
+  ]
+}

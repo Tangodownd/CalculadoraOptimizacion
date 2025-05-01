@@ -1,0 +1,41 @@
+{
+  "name": "Programaci\u00f3n lineal simple",
+  "problem_type": "max",
+  "objective_function": {
+    "expression": "2*x + 3*y",
+    "variables": [
+      "x",
+      "y"
+    ]
+  },
+  "constraints": [
+    {
+      "expression": "x + y - 10",
+      "variables": [
+        "x",
+        "y"
+      ],
+      "constraint_type": "<="
+    },
+    {
+      "expression": "-x",
+      "variables": [
+        "x",
+        "y"
+      ],
+      "constraint_type": "<="
+    },
+    {
+      "expression": "-y",
+      "variables": [
+        "x",
+        "y"
+      ],
+      "constraint_type": "<="
+    }
+  ],
+  "variables": [
+    "x",
+    "y"
+  ]
+}
